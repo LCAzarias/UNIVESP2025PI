@@ -18,22 +18,7 @@ section {
 	border: 0;
 }
 
-h1 {
-	font-size: 30px;
-	color: white;
-	width: 150vh;
-	align-items: center;
-	text-align: center;
-	padding: 10px;
-	margin-left: 90px;
-	display: flex;
-	justify-content: center;
-	height: 100vh;
-	border: 2px solid white;
-	border-radius: 10px;
-	box-shadow: 10px 5px grey;
 
-}
 
 input {
 	color: #454545;
@@ -87,37 +72,53 @@ label {
 	margin-top: 200px;
 }
 
-.subtitulo {
-	font-size: 25px;
-	color: black;
-	bottom: 250px;
-	margin-left: 90px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	border: 1px solid #fff;
-	border-radius: 10px;
-	margin-right: 1870px;
-	padding: 10px;
-	background-color: white;
-	align-items: flex-start;
-	position: relative;
-	box-shadow: 10px 5px grey;
-	text-align: center;
-}
+
+
+
 
 .container {
-	width: 100%;
-	max-width: 500rem;
 	display: flex;
-	height: 100%;
+	height: 110vh;
+	width: 100%;
+	max-width: 100%;
 	flex-direction: column;
 	align-items: flex-start;
-	justify-content: space-between;
+	justify-content: space-around;
 	background-image: url(./IMAGENS/fotoPI.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
 
+.container h1 {
+	font-size: 30px;
+	color: white;
+	width: 15em;
+	align-items: center;
+	text-align: center;
+	padding: 10px 20px;
+	margin-left: 60px;
+	justify-content: center;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 10px 5px grey;
+}
+
+.container h2 {
+	font-size: 25px;
+	color: black;
+	bottom: 250px;
+	margin-left: 60px;
+	padding: 10px 20px;
+	justify-content: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	background-color: white;
+	align-items: flex-start;
+	box-shadow: 10px 5px grey;
+	text-align: center;
 }
 
 .actived:hover {
@@ -137,7 +138,7 @@ section nav ul {
 	justify-content: center;
 	gap: 1px;
 	flex-wrap: nowrap;
-	
+
 }
 
 section nav ul li a {
