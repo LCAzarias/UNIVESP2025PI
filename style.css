@@ -127,6 +127,7 @@ section nav ul {
 	padding: 10px;
 	display: flex;
 	margin-left: 10px;
+	flex-direction: row;
 	align-items: flex-start;
 	justify-content: flex-start;
 	gap: 10px;
