@@ -65,7 +65,6 @@ label {
 	margin-left: 80px;
 	padding: 20px;
 	border-radius: 20px;
-	margin-top: 200px;
 }
 
 .container {
@@ -75,7 +74,7 @@ label {
 	max-width: 100%;
 	flex-direction: column;
 	align-items: flex-start;
-	justify-content: space-between;
+	justify-content: space-around;
 	background-image: url(./IMAGENS/fotoPI.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -127,7 +126,8 @@ section nav ul {
 	align-items: flex-start;
 	justify-content: center;
 	gap: 50px;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	box-sizing: content-box;
 }
 
 section nav ul li a {
@@ -142,11 +142,10 @@ section nav ul li a.actived {
 	text-decoration: double;
 	background-color: black;
 	color: #fff;
-	word-spacing: 10px;
-	box-sizing: border-box;
+	box-sizing: content-box;
 	padding-top: 1rem;
 	position: relative;
-	border: 5px solid grey;
+	border: 2px solid #fff;
 	border-radius: 10px;
 	box-shadow: 10px 5px grey;
 }
