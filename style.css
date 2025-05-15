@@ -134,7 +134,7 @@ section nav ul {
 	display: flex;
 	position: relative;
 	align-items: flex-start;
-	justify-content: space-around;
+	justify-content: center;
 	gap: 1px;
 	flex-wrap: nowrap;
 	
