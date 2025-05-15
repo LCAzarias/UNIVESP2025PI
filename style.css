@@ -73,9 +73,9 @@ label {
 	height: 100vh;
 	width: 100%;
 	max-width: 100%;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: flex-start;
-	justify-content: space-around;
+	justify-content: space-between;
 	background-image: url(./IMAGENS/fotoPI.jpg);
 	background-attachment: fixed;
 	background-position: center;
@@ -109,7 +109,7 @@ label {
 	align-items: flex-start;
 	box-shadow: 10px 5px grey;
 	text-align: center;
-	box-sizing: content-box;
+	
 }
 
 .actived:hover {
