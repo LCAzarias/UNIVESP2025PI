@@ -5,9 +5,8 @@
 	border: 0;
 	text-decoration: none;
 	justify-content: space-around;
-	vertical-align: baseline;
-}
 
+}
 
 section {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -17,8 +16,6 @@ section {
 	padding: 0;
 	border: 0;
 }
-
-
 
 input {
 	color: #454545;
@@ -33,7 +30,6 @@ input {
 	text-align: center;
 	align-items: center;
 	border-radius: 10px;
-
 }
 
 select {
@@ -72,13 +68,9 @@ label {
 	margin-top: 200px;
 }
 
-
-
-
-
 .container {
 	display: flex;
-	height: 110vh;
+	height: 100vh;
 	width: 100%;
 	max-width: 100%;
 	flex-direction: column;
@@ -97,7 +89,7 @@ label {
 	width: 15em;
 	align-items: center;
 	text-align: center;
-	padding: 10px 20px;
+	padding: 10px 20px 20px;
 	margin-left: 60px;
 	justify-content: center;
 	border: 2px solid white;
@@ -108,10 +100,8 @@ label {
 .container h2 {
 	font-size: 25px;
 	color: black;
-	bottom: 250px;
 	margin-left: 60px;
-	padding: 10px 20px;
-	justify-content: center;
+	padding: 20px 20px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	border: 1px solid #fff;
 	border-radius: 10px;
@@ -119,6 +109,7 @@ label {
 	align-items: flex-start;
 	box-shadow: 10px 5px grey;
 	text-align: center;
+	box-sizing: content-box;
 }
 
 .actived:hover {
@@ -128,17 +119,15 @@ label {
 section nav ul {
 	font-size: 20px;
 	color: #454545;
-	bottom: 200px;
-	margin-top: 15px;
+	height: 15vh;
 	text-decoration: double;
 	padding: 10px;
 	display: flex;
 	position: relative;
 	align-items: flex-start;
 	justify-content: center;
-	gap: 1px;
+	gap: 50px;
 	flex-wrap: nowrap;
-
 }
 
 section nav ul li a {
@@ -156,7 +145,7 @@ section nav ul li a.actived {
 	word-spacing: 10px;
 	box-sizing: border-box;
 	padding-top: 1rem;
-	position: sticky;
+	position: relative;
 	border: 5px solid grey;
 	border-radius: 10px;
 	box-shadow: 10px 5px grey;
