@@ -62,7 +62,7 @@ label {
 }
 
 .logotipo {
-	margin-left: 80px;
+	margin-left: 70px;
 	padding: 20px;
 	border-radius: 20px;
 }
@@ -90,7 +90,7 @@ label {
 	align-items: center;
 	text-align: center;
 	padding: 20px 20px 20px;
-	margin-left: 60px;
+	margin-left: 70px;
 	margin-top: 100px;
 	justify-content: center;
 	border: 2px solid white;
@@ -101,7 +101,7 @@ label {
 .container h2 {
 	font-size: 25px;
 	color: black;
-	margin-left: 60px;
+	margin-left: 70px;
 	margin-top: 150px;
 	height: 3vh;
 	padding: 20px 20px;
@@ -122,7 +122,7 @@ label {
 section nav ul {
 	font-size: 20px;
 	color: #454545;
-	height: 15vh;
+	height: 16vh;
 	text-decoration: double;
 	padding: 10px;
 	display: flex;
