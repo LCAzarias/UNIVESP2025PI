@@ -126,10 +126,10 @@ section nav ul {
 	text-decoration: double;
 	padding: 10px;
 	display: flex;
-	margin-left: 20px;
+	margin-left: 10px;
 	align-items: flex-start;
 	justify-content: center;
-	gap: 50px;
+	gap: 20px;
 	flex-wrap: wrap;
 	box-sizing: content-box;
 }
