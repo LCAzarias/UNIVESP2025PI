@@ -128,8 +128,8 @@ section nav ul {
 	display: flex;
 	margin-left: 10px;
 	align-items: flex-start;
-	justify-content: center;
-	gap: 20px;
+	justify-content: flex-start;
+	gap: 10px;
 	flex-wrap: wrap;
 	box-sizing: content-box;
 }
