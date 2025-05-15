@@ -73,7 +73,7 @@ label {
 	height: 100vh;
 	width: 100%;
 	max-width: 100%;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: flex-start;
 	justify-content: space-between;
 	background-image: url(./IMAGENS/fotoPI.jpg);
@@ -128,7 +128,6 @@ section nav ul {
 	justify-content: center;
 	gap: 50px;
 	flex-wrap: nowrap;
-	position: relative;
 }
 
 section nav ul li a {
