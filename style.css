@@ -80,6 +80,7 @@ label {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	box-sizing: content-box;
 }
 
 .container h1 {
@@ -88,8 +89,9 @@ label {
 	width: 15em;
 	align-items: center;
 	text-align: center;
-	padding: 10px 20px 20px;
+	padding: 20px 20px 20px;
 	margin-left: 60px;
+	margin-top: 100px;
 	justify-content: center;
 	border: 2px solid white;
 	border-radius: 10px;
@@ -100,6 +102,8 @@ label {
 	font-size: 25px;
 	color: black;
 	margin-left: 60px;
+	margin-top: 150px;
+	height: 3vh;
 	padding: 20px 20px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	border: 1px solid #fff;
@@ -122,7 +126,7 @@ section nav ul {
 	text-decoration: double;
 	padding: 10px;
 	display: flex;
-	position: relative;
+	margin-left: 20px;
 	align-items: flex-start;
 	justify-content: center;
 	gap: 50px;
@@ -149,7 +153,6 @@ section nav ul li a.actived {
 	border-radius: 10px;
 	box-shadow: 10px 5px grey;
 }
-
 
 
 /* SEGUNDA PAGINA*/
