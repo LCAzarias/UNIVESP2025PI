@@ -128,6 +128,7 @@ section nav ul {
 	justify-content: center;
 	gap: 50px;
 	flex-wrap: nowrap;
+	position: relative;
 }
 
 section nav ul li a {
