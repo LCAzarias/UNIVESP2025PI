@@ -104,7 +104,7 @@ label {
 	margin: 10px;
 	margin-left: 70px;
 	margin-top: 150px;
-	height: 3vh;
+	height: 4vh;
 	padding: 20px 20px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	border: 1px solid #fff;
@@ -120,10 +120,14 @@ label {
 	background-color: bisque
 }
 
+.actived:hover{
+	color: blue;
+}
+
 section nav ul {
 	font-size: 20px;
 	color: #454545;
-	height: 16vh;
+	height: 30vh;
 	text-decoration: double;
 	padding: 10px;
 	display: flex;
