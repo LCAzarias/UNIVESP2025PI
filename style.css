@@ -4,7 +4,6 @@
 	box-sizing: content-box;
 	border: 0;
 	text-decoration: none;
-	justify-content: space-around;
 
 }
 
@@ -77,13 +76,12 @@ label {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	box-sizing: content-box;
+	box-sizing: border-box;
 }
 
 .container h1 {
 	font-size: 25px;
 	color: white;
-	display: flex;
 	width: 15em;
 	align-items: center;
 	text-align: center;
@@ -101,6 +99,7 @@ label {
 	color: black;
 	margin: 10px;
 	margin-left: 70px;
+	margin-top: 100px;
 	padding: 20px 20px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	border: 1px solid #fff;
@@ -127,7 +126,7 @@ section nav ul {
 	text-decoration: double;
 	padding: 10px;
 	display: flex;
-	margin-left: 2px;
+	margin-left: 5px;
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: flex-start;
@@ -148,7 +147,7 @@ section nav ul li a.actived {
 	text-decoration: double;
 	background-color: black;
 	color: #fff;
-	box-sizing: content-box;
+	box-sizing: border-box;
 	padding-top: 1rem;
 	position: relative;
 	border: 2px solid #fff;
