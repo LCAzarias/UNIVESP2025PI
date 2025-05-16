@@ -134,9 +134,9 @@ section nav ul {
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: flex-start;
-	gap: 10px 30px;
+	gap: 5px 30px;
 	flex-wrap: nowrap;
-	box-sizing: content-box;
+	box-sizing: border-box;
 }
 
 section nav ul li a {
