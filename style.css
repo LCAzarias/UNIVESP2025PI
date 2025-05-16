@@ -101,6 +101,7 @@ label {
 .container h2 {
 	font-size: 25px;
 	color: black;
+	margin: 10px;
 	margin-left: 70px;
 	margin-top: 150px;
 	height: 3vh;
