@@ -103,7 +103,7 @@ label {
 	color: black;
 	margin: 10px;
 	margin-left: 70px;
-	margin-top: 120px;
+	margin-top: 100px;
 	padding: 20px 20px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	border: 1px solid #fff;
@@ -174,7 +174,6 @@ section nav ul li a.actived {
 	margin: 0;
 	display: grid;
 	justify-content: space-between;
-
 }
 
 /*TERCEIRA PAGINA*/
