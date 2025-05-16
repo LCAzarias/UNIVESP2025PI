@@ -112,7 +112,7 @@ label {
 	align-items: flex-start;
 	box-shadow: 10px 5px grey;
 	text-align: center;
-	gap: 20px;
+	gap: 40px;
 }
 
 .actived:hover {
@@ -126,12 +126,12 @@ section nav ul {
 	text-decoration: double;
 	padding: 10px;
 	display: flex;
-	margin-left: 10px;
+	margin-left: 5px;
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: flex-start;
 	gap: 10px 10px;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	box-sizing: content-box;
 }
 
