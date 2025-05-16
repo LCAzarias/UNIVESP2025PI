@@ -104,7 +104,6 @@ label {
 	margin: 10px;
 	margin-left: 70px;
 	margin-top: 150px;
-	height: 4vh;
 	padding: 20px 20px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	border: 1px solid #fff;
@@ -113,7 +112,6 @@ label {
 	align-items: flex-start;
 	box-shadow: 10px 5px grey;
 	text-align: center;
-	gap: 40px;
 }
 
 .actived:hover {
@@ -135,7 +133,7 @@ section nav ul {
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: flex-start;
-	gap: 10px 10px;
+	gap: 20px 30px;
 	flex-wrap: nowrap;
 	box-sizing: content-box;
 }
